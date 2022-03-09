@@ -1,6 +1,6 @@
 @import "reset.css";
-@import "css/clock.css";
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap");
+
 .hidden {
   display: none;
 }
@@ -16,6 +16,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   position: absolute;
   z-index: 2;
   color: white;
@@ -24,6 +25,33 @@ main {
   height: 100%;
 }
 
+ul {
+  width: 40%;
+  padding: 10px;
+}
+
 #quotes span {
   display: flex;
+  justify-content: center;
+}
+
+#quotes span:first-child {
+  display: flex;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+#quotes span:last-child {
+  display: flex;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+#clock {
+  font-size: 100px;
+  padding: 40px;
+}
+
+#greeting {
+  font-size: 60px;
 }

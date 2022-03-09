@@ -16,7 +16,7 @@ function loginBtnOnClick(event){
 }
 
 function paintGreetings(username){
-  greeting.innerText =`Hello ${username}`;
+  greeting.innerText =`Welcome ${username}`;
   greeting.classList.remove(HIDDEN_CLSSSNAME);
 }
 
