@@ -34,7 +34,17 @@ ul {
   display: flex;
   justify-content: center;
 }
-
+/*
+@keyframes quotes_author {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+명언에 hover하면 author가 아래로 내려오는 animation주려고 했는데 실패..
+*/
 #quotes span:first-child {
   display: flex;
   padding-top: 20px;
@@ -46,6 +56,10 @@ ul {
   padding-top: 10px;
   font-size: 15px;
 }
+
+/*#quotes span:last-child:hover {
+  animation: quotes_author 1s linear;
+}*/
 
 #clock {
   font-size: 100px;
