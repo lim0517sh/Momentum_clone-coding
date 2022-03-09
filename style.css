@@ -1,5 +1,6 @@
 @import "reset.css";
-
+@import "css/clock.css";
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap");
 .hidden {
   display: none;
 }
@@ -7,4 +8,22 @@
 img {
   width: 100%;
   height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+
+#quotes span {
+  display: flex;
 }
