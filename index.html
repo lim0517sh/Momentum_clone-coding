@@ -13,12 +13,15 @@
       <input required maxlength="15" type="text" placeholder="What is your name?"/>
       <input type="submit" value="Log In"/>
     </form>
+    <form class="hidden" id="logout-form">
+      <input type="submit" value="Log out"/>
+    </form>
     <h1 id="greeting" class="hidden"></h1>
     <h2 id="clock">00:00:00</h2>
-    <form id="todo-form">
+    <form id="todo-form" class="hidden">
       <input type="input" placeholder="Write a To Do and Press"/>
     </form>
-    <ul id="todo-list"></ul>
+    <ul id="todo-list" class="hidden"></ul>
     <div id="quotes">
       <span></span>
       <span></span>
