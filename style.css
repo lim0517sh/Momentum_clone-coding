@@ -75,3 +75,7 @@ ul {
   top: 10px;
   right: 10px;
 }
+
+#logout-form {
+  margin-top: 40px;
+}
