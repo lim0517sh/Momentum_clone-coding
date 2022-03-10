@@ -61,3 +61,8 @@ if(savedToDos !== null){
 }
 
 //filter() <- true면 return
+
+if(savedUsername){
+  toDoList.classList.remove(HIDDEN_CLSSSNAME);
+  toDoForm.classList.remove(HIDDEN_CLSSSNAME);
+}
